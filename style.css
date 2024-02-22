@@ -156,6 +156,7 @@ h1 {
     padding: 40px 0px;
     margin: auto;
     justify-content: space-around;
+    margin-top: 70px;
 }
 
 .image-in-left-content {
@@ -193,7 +194,7 @@ h1 {
 .list-elements {
     display: flex;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 15px 0px;
 }
 
 .first-list-element {
@@ -230,4 +231,90 @@ h4 {
 
 .signature {
     height: 40px;
+}
+
+.grid-container {
+    margin: 100px 0px;
+}
+
+.dishes-info {
+    text-align: center;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+
+.dishes-info h2 {
+    padding: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.dishes-info p {
+    font-size: 14px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+}
+
+.grid-menu {
+    text-align: center;
+    left: 20%;
+    top: 150px;
+    display: grid;
+    width: 70%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 60px 0px;
+}
+
+.grid-items {
+    border-radius: 5px;
+    box-shadow: 5px white;
+    margin: 15px;
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.offers {
+    height: 25px;
+    display: block;
+    margin: 10px 0px 0px 10px;
+}
+
+.food-pic {
+    height: 150px;
+    object-fit: cover;
+}
+
+.grid-items h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.grid-items p {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.grid-items p > span {
+    color: red;
+    text-decoration: line-through;
+}
+
+.grid-items-btn {
+    background-color: #F5900A;
+    color: white;
+    border-color: #F5900A;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.grid-items-btn:hover {
+    background-color: #F33127;
+    transition: all 0.5s ease-in;
 }
