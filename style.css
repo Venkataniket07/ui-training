@@ -139,3 +139,95 @@ h1 {
     vertical-align: super;
     padding-left: 2px;
 }
+
+/*  used adjust the absolute display*/
+.second-container {
+    background-color: #0B1517;
+    height: auto;
+    width: 100%;
+    padding-top: 100vh;
+}
+
+.sc-inner-container {
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 60%;
+    padding: 40px 0px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.image-in-left-content {
+    height: 500px;
+    width: auto;
+}
+
+.right-info-content {
+    width: 50%;
+}
+
+.page2-h3 {
+    font-family: cursive;
+    color: #F48F09;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.page2-h1 {
+    font-size: 36px;
+    margin-top: -20px;
+    font-weight: 400;
+}
+
+.page2-p {
+    font-size: 15px;
+    padding: 0px 10px;
+}
+
+.svg-icons {
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.list-elements {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.first-list-element {
+    display: flex;
+}
+
+h4 {
+    font-size: 15px;
+}
+.icon-para {
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.second-list-element {
+    display: flex;
+}
+
+.read-more-btn {
+    background-color: #F5900A;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 0px 20px;
+}
+
+.read-more-and-sign-image {
+    display: flex;
+    align-items: center;
+}
+
+.signature {
+    height: 40px;
+}
