@@ -363,3 +363,181 @@ h4 {
     border-radius: 5px;
     margin: 20px 15px;
 }
+
+.fourth-container {
+    background-color: #0B1517;
+}
+
+.top-div , .bottom-div{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 50px 0px;
+    align-items: center;
+}
+
+.left img {
+    height: 300px;
+}
+
+.top-div .left {
+    padding-right: 60px;
+}
+
+.top-div .right, .bottom-div .left {
+    color: whitesmoke;
+    text-align: justify;
+}
+
+.top-div .right h2 , .bottom-div .left h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.top-div .right p , .bottom-div .left p {
+    font-size: 13px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.top-div .right button, .bottom-div .left button {
+    background-color: #F5900A;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bottom-div .left {
+    padding-right: 20px;
+}
+
+.right img {
+    height: 325px;
+}
+
+.bottom-div {
+    margin-bottom: 30px;
+}
+
+.team-container {
+    width: 70%;
+    margin: auto;
+    color: whitesmoke;
+    padding: 60px 0px 100px 0px;  
+}
+
+.team-intro {
+    text-align: center;
+}
+
+.team-intro h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.team-intro p {
+    font-size: 14px;
+    width: 60%;
+    margin: auto;
+}
+
+.team-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    width: 85%;
+    margin: auto;
+}
+
+.team-member-profile {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.team-member-profile img {
+    height: auto;
+    width: 250px;
+}
+
+.team-member-profile h4 {
+    padding: 10px;
+    color: #0F1F38;
+}
+
+.team-member-profile h6 {
+    color: #656565;
+    padding-bottom: 20px;
+}
+
+
+.fifth-container {
+    background-image: url('images/pexels-william-choquette.jpg');
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.fifth-container > div {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    color: white;
+}
+
+.fifth-container > div div {
+    display: flex;
+    align-items: center;
+}
+
+.fifth-container > div h2 {
+    font-size: 38px;
+    font-weight: 400;
+    font-family: cursive;
+    padding: 60px 0px;
+}
+
+.fifth-container div > img {
+    height: 40px;
+}
+
+.sixth-container {
+    background-color: #0B1517;
+    padding-top: 100px;
+}
+
+.testimonials {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.testimonials .chef-potrait{
+    height: 80px;
+    border-radius: 80%;
+}
+
+.testimonials .rating-stars {
+    height: 60px;
+}
+
+.testimonials h5 {
+    font-weight: 200;
+}
+
+.testimonials .description {
+    font-size: 13px;
+    text-align: center;
+}
