@@ -541,3 +541,82 @@ h4 {
     font-size: 13px;
     text-align: center;
 }
+
+.seventh-container {
+    background-color: #0F1D20;
+    padding: 50px 0px 80px 0px;
+}
+
+.latest-blogs {
+    color: whitesmoke;
+    padding: 40px ;
+    width: 70%;
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.latest-blogs h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.latest-blogs p {
+    font-size: 14px;
+    width: 60%;
+    margin: auto;
+}
+
+.blogs-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.blog-item img{
+    height: auto;
+    width: 300px;
+}
+
+.blog-item {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    justify-content: space-around;
+    text-align: center;
+    width: 300px;
+}
+
+.blog-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+}
+.blog-item p {
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 10px 10px;
+    text-align: justify;
+}
+.blog-item-sub-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #747474;
+}
+
+.blog-item-sub-item a {  
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.blog-item-sub-item h5 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.blog-item-sub-item a:hover {
+    color: #F63226;
+}
